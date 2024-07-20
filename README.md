@@ -16,7 +16,6 @@ py -m pip install z-kit zkit-pygame --upgrade
 ### Basic code example
 
 ```python
-from zkit.renderer import ZKitRenderer
 from zkitpg import PygameBackend, register_extension
 import pygame
 import zkit
@@ -27,6 +26,6 @@ register_extension()
 renderer = zkit.Renderer(pygame)
 
 # Or call it directly
-renderer = ZKitRenderer(PygameBackend)
+renderer = zkit.Renderer(PygameBackend)
 
 ```
