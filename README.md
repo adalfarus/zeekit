@@ -10,7 +10,7 @@ If you have a better name please contact me
 ## How to set-up and use
 
 ```bash
-py -m pip install z-kit zkit-pygame --upgrade
+py -m pip install zeekit zkit-pygame --upgrade
 ``` 
 
 ### Basic code example
