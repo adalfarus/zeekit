@@ -1,5 +1,5 @@
 <p float="center">
-  <img src="/resources/dark-transparent.svg" width="100%" alt="Zee-Kit"/>
+  <img src="/resources/light-transparent.svg" width="100%" alt="Zee-Kit"/>
 </p>
 
 This is a clever word play on the word See and Kit but with Z -- for coolness
