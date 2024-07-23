@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["zkit"]
+include-package-data = true
+package-dir = {"" = "src"}
+
+[project]
+name = "zeekit"
+version = "1.0.0a0"
+dependencies = []
+requires-python = ">= 3.10"
+authors = [
+  {name = "Cariel Becker", email = "cariel.becker@gmx.de"},
+]
+maintainers = [
+  {name = "Cariel Becker", email = "cariel.becker@gmx.de"},
+]
+description = "A nice python 2d/3d/Gui library that relies soley on window events and drawing functions to work"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {text = "LGPL-2.1-or-later"}
+keywords = ["general", "graphic", "app", "zeekit"]
+classifiers = [
+  "License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)",
+	"Development Status :: 1 - Planning",
+	"Programming Language :: Python",
+	"Natural Language :: English"
+]
+
+[project.optional-dependencies]
+all = []
+
+[project.urls]
+Home = "https://pypi.org/project/zeekit/"
+Repository = "https://github.com/adalfarus/zeekit"
+Documentation = "https://github.com/adalfarus/zeekit/wiki"
+"Issue tracker" = "https://github.com/adalfarus/zeekit/issues"
